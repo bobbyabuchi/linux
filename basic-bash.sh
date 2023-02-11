@@ -21,4 +21,3 @@ mkdir -p /tmp/spirit/love/goodness
 
 // remove a folder and contents
 rm -r /tmp/folder_one
-
