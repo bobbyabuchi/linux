@@ -49,7 +49,10 @@ curl https://...
 wget https://...
 
 # check OS releae version
-ls /etc/*release*
+ls /etc/*release* # list OS relate files
+cat /etc/*release* # open OS release related filesss
+
+
 
 
 
