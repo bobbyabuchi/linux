@@ -21,3 +21,12 @@ mkdir -p /tmp/spirit/love/goodness
 
 // remove a folder and contents
 rm -r /tmp/folder_one
+
+// copy file // existing_file to copy_file
+cp existing_filename.txt copy_filename.txt
+
+// move/cut file
+mv existing_filename.ext new_existing_filename.ext // so this is just like renaming because it's still in the same dir
+
+// remove/delete file
+rm filename.txt
