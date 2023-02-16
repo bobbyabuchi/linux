@@ -102,11 +102,10 @@ systemctl disable httpd
 # check if it's running
 curl http://localhost:500
 
-# to configure this as a service
+# to configure this as a service System D service
 /etc/systemd/system
 # - create a filename.service in /etc/systemd/system
 # - put the code bellow inside
 # - save
 # [service]
 # ExecStart=/opt/lampp ./manager-linux-x64.run
-
